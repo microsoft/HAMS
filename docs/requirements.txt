@@ -1,4 +1,4 @@
-breathe==4.30.0
+breathe==4.35.0
 furo
 git+https://github.com/sphinx-contrib/video
 ipywidgets
