@@ -1,0 +1,28 @@
+name: Deploy HAMS's Sphinx documentation to GitHub Pages
+
+# Credit: https://github.com/marketplace/actions/sphinx-to-github-pages
+# Runs on pushes targeting the default branch
+on:
+  push:
+    branches: [main, pre_release]
+
+# Cancel any in-progress job or run
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pages:
+    runs-on: ubuntu-20.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - id: install_pandoc
+        run: sudo apt-get install pandoc -y
+      - id: deployment
+        uses: sphinx-notes/pages@v3
