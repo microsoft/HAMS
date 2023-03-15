@@ -348,3 +348,37 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# HAMS
+log.out
+/dist
+__pycache__/
+hdf5.dll
+log.*
+*.out
+*.pyc
+docs/_build/
+*.mp4
+*.csv
+*.hog
+*.avi
+*.txt
+*.pth
+*.exe
+*.dll
+*.yml
+*.yaml
+*.toml
+test_*/
+out/
+data/
+*.jpg
+*.png
+.ipynb_checkpoints/
+
+Dockerfile
+docker-compose.*
+GPL
+binaries
+output/
+*output*/

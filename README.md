@@ -1,14 +1,14 @@
-# Project
+# HAMS ALT
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+![LICENSE](https://img.shields.io/github/license/microsoft/HAMS?style=for-the-badge) [![Dashboard](https://img.shields.io/website?down_message=Dashboard%20Offline&style=for-the-badge&up_color=green&up_message=Dashboard&url=https%3A%2F%2Fhams-dashboard.westus3.cloudapp.azure.com%2F)](https://hams-dashboard.westus3.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/docs-Documentation-blue?style=for-the-badge&logo=appveyor)](https://microsoft.github.io/HAMS)
 
-As the maintainer of this project, please make a few updates:
+This project contains the core components of the Automated License Testing(ALT) system from the HAMS group at Microsoft Research, India.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Installation
+
+1. Run `pip install git+https://github.com/microsoft/HAMS` to install the latest version
+2. Downlaod the binaries from the [HAMS Releases](https://github.com/microsoft/HAMS/releases)
+3. Refer to additional requirements and instructions on each of the modules in the `Tutorials` section of the [documentation](https://microsoft.github.io/HAMS).
 
 ## Contributing
 
