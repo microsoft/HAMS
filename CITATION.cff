@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nambi"
+  given-names: "Akshay"
+- family-names: "Mehta"
+  given-names: "Ishit"
+- family-names: "Ghosh"
+  given-names: "Anurag"
+- family-names: "Lingam"
+  given-names: "Vijay"
+- family-names: "Padmanabhan"
+  given-names: "Venkat"
+title: "ALT: Towards Automating Driver License Testing using Smartphones"
+version: 0.1.0
+doi: https://doi.org/10.1145/3356250.3360037
+date-released: 2017-12-18 #TODO
+url: "https://github.com/microsoft/HAMS"
