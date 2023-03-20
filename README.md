@@ -1,6 +1,8 @@
 # HAMS ALT
 
-![LICENSE](https://img.shields.io/github/license/microsoft/HAMS?style=for-the-badge) [![Dashboard](https://img.shields.io/website?down_message=Dashboard%20Offline&style=for-the-badge&up_color=green&up_message=Dashboard&url=https%3A%2F%2Fhams-dashboard.westus3.cloudapp.azure.com%2F)](https://hams-dashboard.westus3.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/docs-Documentation-blue?style=for-the-badge&logo=appveyor)](https://microsoft.github.io/HAMS)
+![LICENSE](https://img.shields.io/github/license/microsoft/HAMS?style=for-the-badge) [![Dashboard](https://img.shields.io/website?down_message=Dashboard%20Offline&style=for-the-badge&up_color=green&up_message=Dashboard&url=https%3A%2F%2Fhams-dashboard.westus3.cloudapp.azure.com%2F)](https://hams-dashboard.westus3.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/docs-Documentation-blue?style=for-the-badge&logo=appveyor)](https://microsoft.github.io/HAMS) 
+
+[![Docs](https://github.com/microsoft/HAMS/actions/workflows/gh_pages.yml/badge.svg)](https://github.com/microsoft/HAMS/actions/workflows/gh_pages.yml)
 
 This project contains the core components of the Automated License Testing(ALT) system from the HAMS group at Microsoft Research, India.
 
